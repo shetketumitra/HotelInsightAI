@@ -290,7 +290,7 @@ HotelInsightAI/
 
 **Project Type:** Capstone Project
 
-**Domain:** Data Analytics | Business Intelligence | Hospitality Analytics | Artificial Intelligence
+**Domain:** Hospitality Analytics | Artificial Intelligence | Natural Language Processing (NLP) | Business Intelligence
 
 ---
 
