@@ -290,7 +290,7 @@ HotelInsightAI/
 
 **Project Type:** Capstone Project
 
-**Domain:** Hospitality Analytics | Business Intelligence | Artificial Intelligence
+**Domain:** Data Analytics | Business Intelligence | Hospitality Analytics | Artificial Intelligence
 
 ---
 
@@ -310,7 +310,7 @@ GitHub:
 https://github.com/shetketumitra
 
 LinkedIn:
-(Add your LinkedIn profile here)
+https://www.linkedin.com/in/shetketumitra/
 
 ---
 
