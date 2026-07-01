@@ -13,6 +13,9 @@
 
 ---
 
+[![Version](https://img.shields.io/badge/Version-v1.0.0-success.svg)]()
+
+---
 
 HotelInsight AI is an AI-powered hospitality analytics platform that transforms thousands of hotel guest reviews into actionable business intelligence using a modular multi-agent architecture.
 
@@ -350,6 +353,8 @@ The platform supports decision-making by:
 
 # Future Enhancements
 
+HotelInsight AI will continue evolving with additional AI-powered capabilities, including:
+
 - Multi-language review support
 - OCR support for PDF reviews
 - Competitor benchmarking dashboard
@@ -366,11 +371,21 @@ The platform supports decision-making by:
 
 # 📌 Project Information
 
-**Project Name:** HotelInsight AI
+Project Name : HotelInsight AI
 
-**Project Type:** Capstone Project
+Version : v1.0.0
 
-**Domain:** Data Analytics | Business Intelligence | Hospitality Analytics | Artificial Intelligence
+Project Type : AI Capstone Project
+
+Domain : Hospitality Analytics | Business Intelligence | Artificial Intelligence | Natural Language Processing
+
+---
+
+# 📜 Version History
+
+| Version | Release | Highlights |
+|----------|---------|------------|
+| v1.0.0 | Initial Release | Multi-Agent Architecture, AI Analysis, Interactive Dashboard, PDF Reporting |
 
 ---
 
@@ -386,7 +401,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## Shetketu Mitra
 
-Data Analyst | Hospitality Professional | AI & Business Intelligence Enthusiast
+Data Analyst | Hospitality Analytics | Business Intelligence | Artificial Intelligence
 
 GitHub:
 https://github.com/shetketumitra
@@ -396,4 +411,14 @@ https://www.linkedin.com/in/shetketumitra/
 
 ---
 
-⭐ If you found this project interesting, please consider giving it a Star on GitHub.
+---
+
+<div align="center">
+
+### ⭐ If you found HotelInsight AI useful, consider giving this repository a star.
+
+Made with ❤️ using Python, Streamlit and Google Gemini
+
+**HotelInsight AI v1.0.0**
+
+</div>
