@@ -39,6 +39,44 @@ The platform automatically:
 
 ---
 
+## 🏗️ System Architecture
+
+```mermaid
+flowchart TD
+
+    A[Hotel Reviews CSV] --> B[DatasetProfilerAgent]
+    B --> C[SchemaAgent]
+    C --> D[SentimentAgent]
+    D --> E[ThemeAgent]
+    E --> F[AspectSentimentAgent]
+    F --> G[InsightsAgent]
+
+    G --> H[Health Score]
+    G --> I[Hotel Strengths]
+    G --> J[Improvement Areas]
+
+    J --> K[Gemini Theme Agent]
+    J --> L[Gemini Root Cause Agent]
+    J --> M[Gemini Benchmark Agent]
+    J --> N[Gemini Guest Persona Agent]
+    J --> O[Gemini Trend Agent]
+    J --> P[Gemini Summary Agent]
+    J --> Q[Gemini Consultant Agent]
+
+    H --> R[Interactive Dashboard]
+    I --> R
+    J --> R
+    K --> R
+    L --> R
+    M --> R
+    N --> R
+    O --> R
+    P --> R
+    Q --> R
+
+    R --> S[PDF Report]
+```
+
 # Key Features
 
 ### Data Processing
