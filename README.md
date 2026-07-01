@@ -8,12 +8,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
 [![Google Gemini](https://img.shields.io/badge/Google-Gemini-blue.svg)](https://ai.google.dev/)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-</div>
-
----
-
 [![Version](https://img.shields.io/badge/Version-v1.0.0-success.svg)]()
+</div>
 
 ---
 
@@ -44,18 +40,21 @@ The platform automatically:
 
 # 📑 Table of Contents
 
-- [Project Overview](#project-overview)
-- [System Architecture](#-system-architecture)
-- [Key Features](#key-features)
-- [Multi-Agent Architecture](#multi-agent-architecture)
-- [Technologies Used](#technologies-used)
-- [Application Screenshots](#application-screenshots)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Workflow](#workflow)
-- [Future Enhancements](#future-enhancements)
-- [License](#-license)
-- [Author](#author)
+- [📌 Project Overview](#project-overview)
+- [🏗️ System Architecture](#️-system-architecture)
+- [✨ Key Features](#key-features)
+- [🤖 Multi-Agent Architecture](#multi-agent-architecture)
+- [🛠️ Technology Stack](#technologies-used)
+- [📸 Application Screenshots](#application-screenshots)
+- [⚙️ Installation](#installation)
+- [📂 Project Structure](#project-structure)
+- [🔄 Workflow](#workflow)
+- [💼 Business Value](#-business-value)
+- [🚀 Future Enhancements](#future-enhancements)
+- [📌 Project Information](#-project-information)
+- [📜 Version History](#-version-history)
+- [📄 License](#-license)
+- [👨‍💻 Author](#author)
 
 ---
 
@@ -413,12 +412,14 @@ https://www.linkedin.com/in/shetketumitra/
 
 ---
 
+---
+
 <div align="center">
 
-### ⭐ If you found HotelInsight AI useful, consider giving this repository a star.
+**HotelInsight AI • v1.0.0**
 
-Made with ❤️ using Python, Streamlit and Google Gemini
+Multi-Agent AI-Powered Hotel Review Intelligence Platform
 
-**HotelInsight AI v1.0.0**
+Developed by **Shetketu Mitra**
 
 </div>
