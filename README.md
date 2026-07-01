@@ -1,40 +1,33 @@
 # 🏨 HotelInsight AI
 
-### Multi-Agent Hotel Review Intelligence Platform
+> **Version:** v1.0.0  
+> **Developed by:** **Shetketu Mitra**
 
-**Developed by Shetketu Mitra**
-
-HotelInsight AI is an AI-powered hospitality analytics platform that transforms thousands of hotel guest reviews into actionable business intelligence using a modular multi-agent architecture.
-
-The application combines Natural Language Processing (NLP), sentiment analysis, data visualization, and Google's Gemini AI to automatically identify guest satisfaction trends, complaint themes, strengths, improvement areas, guest personas, strategic recommendations, and executive-level business insights.
-
----
-
-# Project Overview
-
-HotelInsight AI enables hotel managers, hospitality consultants, and business analysts to upload hotel review datasets and instantly generate comprehensive business intelligence reports.
-
-The platform automatically:
-
-- Performs sentiment analysis
-- Detects positive and negative themes
-- Calculates hotel health scores
-- Discovers guest personas
-- Identifies operational strengths
-- Detects improvement areas
-- Performs AI-powered benchmark analysis
-- Generates executive summaries
-- Produces consultant-level recommendations
-- Exports a professional PDF report
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red.svg)](https://streamlit.io/)
+[![Google Gemini](https://img.shields.io/badge/Google-Gemini_AI-orange.svg)](https://ai.google.dev/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
-## 🏗️ System Architecture
+## 🚀 Overview
+
+HotelInsight AI is a **Multi-Agent AI-powered Hotel Review Intelligence Platform** that transforms thousands of guest reviews into actionable business intelligence using **Natural Language Processing (NLP)**, **Business Analytics**, and **Google Gemini AI**.
+
+Designed for hotel managers, hospitality consultants, operations teams, and business analysts, the platform automatically analyzes hotel review datasets to uncover customer sentiment, operational strengths, service gaps, guest personas, benchmarking insights, and executive-level recommendations.
+
+The application combines modular AI agents with interactive visualizations to deliver strategic insights that support data-driven hospitality decision-making.
+
+---
+
+# 🏗 System Architecture
 
 ```mermaid
 flowchart TD
 
-    A[Hotel Reviews CSV] --> B[DatasetProfilerAgent]
+    A[Hotel Review CSV Dataset]
+
+    A --> B[DatasetProfilerAgent]
     B --> C[SchemaAgent]
     C --> D[SentimentAgent]
     D --> E[ThemeAgent]
@@ -42,7 +35,7 @@ flowchart TD
     F --> G[InsightsAgent]
 
     G --> H[Health Score]
-    G --> I[Hotel Strengths]
+    G --> I[Strength Analysis]
     G --> J[Improvement Areas]
 
     J --> K[Gemini Theme Agent]
@@ -64,114 +57,115 @@ flowchart TD
     P --> R
     Q --> R
 
-    R --> S[PDF Report]
----
-
-# Key Features
-
-### Data Processing
-
-- Upload hotel review CSV datasets
-- Automatic dataset profiling
-- Automatic schema detection
-- Automatic review column detection
-- Automatic score column detection
-
-### Analytics
-
-- Overall hotel performance metrics
-- Sentiment Analysis
-- Hotel Health Score
-- Positive Theme Detection
-- Complaint Theme Detection
-- Aspect Sentiment Analysis
-- Strength & Improvement Identification
-
-### AI Intelligence (Powered by Gemini)
-
-- AI Theme Discovery
-- AI Root Cause Analysis
-- AI Benchmark Analysis
-- AI Guest Personas
-- AI Trend Analysis
-- AI Executive Summary
-- AI Consultant Recommendations
-
-### Visualization
-
-- Interactive charts
-- Pie charts
-- Bar charts
-- Word Cloud
-- KPI Dashboard
-
-### Reporting
-
-- Professional PDF Report Generation
+    R --> S[PDF Executive Report]
+```
 
 ---
 
-# Multi-Agent Architecture
+# 🎯 Project Objectives
 
-The project follows a modular AI Agent architecture.
+HotelInsight AI aims to:
 
-Each agent performs a dedicated task independently.
+- Convert unstructured hotel reviews into business intelligence
+- Detect customer satisfaction trends
+- Perform sentiment and aspect-based analysis
+- Discover operational strengths and weaknesses
+- Identify guest personas using AI
+- Generate strategic consultant-level recommendations
+- Produce executive-ready PDF reports
+- Enable data-driven hospitality decision-making
+
+---
+
+# ⚙️ AI Agent Pipeline
 
 | Agent | Responsibility |
 |--------|----------------|
-| DatasetProfilerAgent | Dataset profiling |
-| SchemaAgent | Schema detection |
-| SentimentAgent | Review sentiment analysis |
-| ThemeAgent | Complaint theme detection |
-| PositiveThemeAgent | Positive theme detection |
-| AspectSentimentAgent | Aspect-based sentiment analysis |
-| HealthScoreAgent | Hotel health score calculation |
-| InsightsAgent | Business insights generation |
-| GeminiThemeAgent | AI theme discovery |
-| GeminiRootCauseAgent | Root cause analysis |
-| GeminiBenchmarkAgent | Benchmark comparison |
-| GeminiGuestPersonaAgent | Guest persona generation |
-| GeminiTrendAgent | Business trend analysis |
-| GeminiSummaryAgent | Executive summary generation |
-| GeminiConsultantAgent | Consultant recommendations |
-| PDFReportAgent | PDF report generation |
+| 🧠 DatasetProfilerAgent | Detects dataset type and structure |
+| 📄 SchemaAgent | Automatically identifies review and score columns |
+| 😊 SentimentAgent | Performs sentiment analysis |
+| 🚨 ThemeAgent | Extracts complaint and positive themes |
+| 📈 AspectSentimentAgent | Performs aspect-level sentiment analysis |
+| ⭐ InsightsAgent | Calculates Health Score, strengths and improvement areas |
+| 🧠 GeminiThemeAgent | Discovers hidden guest experience themes |
+| 🎯 GeminiRootCauseAgent | Performs AI-powered root cause analysis |
+| 📊 GeminiBenchmarkAgent | Generates hotel benchmark analysis |
+| 👥 GeminiGuestPersonaAgent | Identifies guest personas |
+| 📈 GeminiTrendAgent | Produces trend analysis |
+| 📝 GeminiSummaryAgent | Creates executive summaries |
+| 💼 GeminiConsultantAgent | Generates consultant-level recommendations |
+| 📄 PDFReportAgent | Exports executive PDF reports |
 
 ---
 
-# Technologies Used
+# 📊 Features
 
-## Programming Language
+## ✅ Dataset Intelligence
 
-- Python 3
-
-## Framework
-
-- Streamlit
-
-## Data Processing
-
-- Pandas
-
-## Data Visualization
-
-- Plotly
-
-## NLP
-
-- TextBlob
-- WordCloud
-
-## AI
-
-- Google Gemini API
-
-## PDF Reporting
-
-- ReportLab
+- Automatic dataset profiling
+- Automatic schema detection
+- Smart review column detection
+- Automatic score column detection
 
 ---
 
-# Application Screenshots
+## 😊 Sentiment Analytics
+
+- Positive review detection
+- Neutral review detection
+- Negative review detection
+- Interactive sentiment visualizations
+- Sentiment distribution charts
+
+---
+
+## 🚨 Theme Analysis
+
+- Complaint theme extraction
+- Positive theme extraction
+- Theme frequency analysis
+- AI Theme Discovery
+
+---
+
+## 📈 Business Intelligence
+
+- Hotel Health Score
+- Operational strengths
+- Improvement areas
+- Priority issue ranking
+- Executive KPI dashboard
+
+---
+
+## 🤖 Google Gemini AI Analysis
+
+The platform uses Google Gemini to generate:
+
+- AI Theme Discovery
+- Root Cause Analysis
+- Hotel Benchmark Analysis
+- Guest Persona Analysis
+- Trend Analysis
+- Executive Summary
+- Consultant Recommendations
+
+---
+
+## 📄 Report Generation
+
+Generate downloadable management reports including:
+
+- Executive Summary
+- Hotel Performance Overview
+- Strengths
+- Improvement Areas
+- AI Insights
+- Consultant Recommendations
+
+---
+
+# 📷 Application Screenshots
 
 ## Dashboard
 
@@ -179,43 +173,151 @@ Each agent performs a dedicated task independently.
 
 ---
 
-## Theme Analysis
+## Theme Discovery
 
-![Theme Analysis](images/themes.png)
+![Theme Discovery](images/theme_discovery.png)
 
 ---
 
-## Strengths & Benchmark Analysis
+## AI Benchmark Analysis
 
-![Strength Analysis](images/strengths.png)
+![Benchmark](images/benchmark_analysis.png)
 
 ---
 
 ## Guest Persona Analysis
 
-![Guest Personas](images/guest_personas.png)
-
----
-
-## Trend Analysis & Executive Summary
-
-![Trend Analysis](images/trends.png)
+![Guest Persona](images/guest_persona.png)
 
 ---
 
 ## AI Consultant Recommendations
 
-![Recommendations](images/recommendations.png)
+![Consultant](images/consultant_recommendations.png)
 
 ---
 
-## AI Agent Execution Pipeline
+# 📈 Workflow
 
-![Pipeline](images/pipeline.png)
+```
+Upload Hotel Reviews CSV
+
+↓
+
+Dataset Profiling
+
+↓
+
+Schema Detection
+
+↓
+
+Sentiment Analysis
+
+↓
+
+Theme Extraction
+
+↓
+
+Aspect Sentiment Analysis
+
+↓
+
+Business Insights Generation
+
+↓
+
+Gemini AI Analysis
+
+↓
+
+Interactive Dashboard
+
+↓
+
+Executive PDF Report
+```
 
 ---
 
-# Installation
+# 🛠 Technology Stack
+
+### Programming
+
+- Python 3.12
+
+### Frontend
+
+- Streamlit
+
+### Data Processing
+
+- Pandas
+
+### Visualization
+
+- Plotly
+- WordCloud
+
+### AI
+
+- Google Gemini API
+
+### NLP
+
+- TextBlob
+
+### Reporting
+
+- ReportLab
+
+### Environment
+
+- Python Dotenv
+
+---
+
+# 📂 Project Structure
+
+```
+HotelInsightAI/
+
+│
+
+├── agents/
+
+│   ├── dataset_profiler_agent.py
+│   ├── schema_agent.py
+│   ├── sentiment_agent.py
+│   ├── theme_agent.py
+│   ├── aspect_sentiment_agent.py
+│   ├── insights_agent.py
+│   ├── gemini_theme_agent.py
+│   ├── gemini_root_cause_agent.py
+│   ├── gemini_benchmark_agent.py
+│   ├── gemini_guest_persona_agent.py
+│   ├── gemini_trend_agent.py
+│   ├── gemini_summary_agent.py
+│   ├── gemini_consultant_agent.py
+│   └── pdf_report_agent.py
+
+│
+
+├── images/
+
+├── app.py
+
+├── requirements.txt
+
+├── LICENSE
+
+└── README.md
+```
+
+---
+
+# ⚡ Installation
 
 Clone the repository
 
@@ -223,7 +325,7 @@ Clone the repository
 git clone https://github.com/shetketumitra/HotelInsightAI.git
 ```
 
-Move into the project
+Navigate to the project
 
 ```bash
 cd HotelInsightAI
@@ -235,10 +337,12 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
+Configure environment variables
+
 Create a `.env` file
 
-```
-GOOGLE_API_KEY=YOUR_GEMINI_API_KEY
+```env
+GOOGLE_API_KEY=YOUR_API_KEY
 ```
 
 Run the application
@@ -249,107 +353,63 @@ streamlit run app.py
 
 ---
 
-# Project Structure
+# 💡 Use Cases
 
-```
-HotelInsightAI/
-│
-├── agents/
-│   ├── aspect_sentiment_agent.py
-│   ├── consultant_agent.py
-│   ├── dataset_agent.py
-│   ├── dataset_profiler_agent.py
-│   ├── gemini_benchmark_agent.py
-│   ├── gemini_competitor_agent.py
-│   ├── gemini_consultant_agent.py
-│   ├── gemini_guest_persona_agent.py
-│   ├── gemini_root_cause_agent.py
-│   ├── gemini_summary_agent.py
-│   ├── gemini_theme_agent.py
-│   ├── gemini_trend_agent.py
-│   ├── health_score_agent.py
-│   ├── insights_agent.py
-│   ├── pdf_report_agent.py
-│   ├── positive_theme_agent.py
-│   ├── recommendation_agent.py
-│   ├── review_agent.py
-│   ├── root_cause_agent.py
-│   ├── schema_agent.py
-│   ├── sentiment_agent.py
-│   ├── summary_agent.py
-│   ├── theme_agent.py
-│   └── wordcloud_agent.py
-│
-├── data/
-├── reports/
-├── images/
-├── app.py
-├── requirements.txt
-└── README.md
-```
+HotelInsight AI can be used by:
+
+- Hotel General Managers
+- Hospitality Consultants
+- Revenue Managers
+- Customer Experience Teams
+- Operations Managers
+- Hotel Owners
+- Business Analysts
+- Hospitality Researchers
 
 ---
 
-# Workflow
+# 📌 Future Roadmap (Version 2.0)
 
-1. Upload hotel review CSV
-2. Dataset profiling
-3. Schema detection
-4. Sentiment analysis
-5. Theme detection
-6. Aspect sentiment analysis
-7. Health score calculation
-8. AI business analysis
-9. Executive summary generation
-10. Consultant recommendations
-11. PDF report generation
-
----
-
-# Future Enhancements
-
-- Multi-language review support
-- OCR support for PDF reviews
-- Competitor benchmarking dashboard
-- Real-time review monitoring
-- Hotel comparison dashboard
-- RAG-powered hotel knowledge base
-- Vector database integration
-- LangGraph orchestration
-- CrewAI multi-agent workflow
-- Voice-based AI assistant
-- Cloud deployment (AWS / Azure / GCP)
+- Multi-language review analysis
+- Live review monitoring
+- Competitor benchmarking using external datasets
+- Retrieval-Augmented Generation (RAG)
+- Vector Database Integration
+- Cloud Deployment
+- Docker Support
+- CI/CD Pipeline
+- Interactive AI Chat Assistant
+- Advanced Predictive Analytics
 
 ---
 
-# Academic Information
+# 👨‍💻 About the Developer
 
-**Project Name:** HotelInsight AI
+**Shetketu Mitra**
 
-**Project Type:** Capstone Project
+Hospitality Professional | Data Analytics Enthusiast | Business Intelligence | Artificial Intelligence
 
-**Domain:** Hospitality Analytics | Artificial Intelligence | Natural Language Processing (NLP) | Business Intelligence
-
----
-
-# License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+HotelInsight AI combines hospitality domain expertise with AI-driven business analytics to demonstrate how intelligent systems can support strategic decision-making within the hospitality industry.
 
 ---
 
-# Author
+# 📄 License
 
-## Shetketu Mitra
+This project is licensed under the **MIT License**.
 
-Data Analyst | Hospitality Professional | AI & Business Intelligence Enthusiast
-
-GitHub:
-https://github.com/shetketumitra
-
-LinkedIn:
-https://www.linkedin.com/in/shetketumitra/
+See the LICENSE file for details.
 
 ---
 
-⭐ If you found this project interesting, please consider giving it a Star on GitHub.
+# ⭐ Acknowledgements
+
+- Google Gemini AI
+- Streamlit
+- Plotly
+- ReportLab
+- TextBlob
+- Open Source Python Community
+
+---
+
+## 🌟 If you found this project useful, consider giving it a star on GitHub!
