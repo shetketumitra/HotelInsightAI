@@ -78,29 +78,6 @@ flowchart TD
 ```
 ---
 
-### AI Agent Pipeline
-
-HotelInsight AI follows a modular multi-agent architecture where each agent is responsible for a specific stage of the analytics workflow.
-
-| Agent | Responsibility |
-|--------|----------------|
-| DatasetProfilerAgent | Detects dataset type and structure |
-| SchemaAgent | Identifies review and score columns |
-| SentimentAgent | Performs sentiment analysis |
-| ThemeAgent | Detects positive and complaint themes |
-| AspectSentimentAgent | Calculates aspect-level sentiment |
-| InsightsAgent | Computes strengths, weaknesses and health score |
-| GeminiThemeAgent | Discovers hidden guest experience themes |
-| GeminiRootCauseAgent | Performs AI root cause analysis |
-| GeminiBenchmarkAgent | Generates competitive benchmarking insights |
-| GeminiGuestPersonaAgent | Identifies guest personas |
-| GeminiTrendAgent | Produces trend analysis |
-| GeminiSummaryAgent | Creates executive summaries |
-| GeminiConsultantAgent | Generates consultant-level recommendations |
-| PDFReportAgent | Produces the downloadable management report |
-
----
-
 # Key Features
 
 ### Data Processing
