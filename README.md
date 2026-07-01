@@ -364,7 +364,7 @@ The platform supports decision-making by:
 
 ---
 
-# Academic Information
+# 📌 Project Information
 
 **Project Name:** HotelInsight AI
 
