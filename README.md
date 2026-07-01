@@ -39,6 +39,23 @@ The platform automatically:
 
 ---
 
+# 📑 Table of Contents
+
+- [Project Overview](#project-overview)
+- [System Architecture](#-system-architecture)
+- [Key Features](#key-features)
+- [Multi-Agent Architecture](#multi-agent-architecture)
+- [Technologies Used](#technologies-used)
+- [Application Screenshots](#application-screenshots)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Workflow](#workflow)
+- [Future Enhancements](#future-enhancements)
+- [License](#-license)
+- [Author](#author)
+
+---
+
 ## 🏗️ System Architecture
 
 ```mermaid
