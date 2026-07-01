@@ -76,6 +76,7 @@ flowchart TD
 
     R --> S[PDF Report]
 ```
+---
 
 # Key Features
 
