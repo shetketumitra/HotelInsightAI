@@ -332,6 +332,22 @@ HotelInsightAI/
 
 ---
 
+# 💼 Business Value
+
+HotelInsight AI enables hotel operators and hospitality consultants to transform unstructured guest reviews into actionable business intelligence.
+
+The platform supports decision-making by:
+
+- Improving guest satisfaction
+- Identifying recurring operational issues
+- Benchmarking hotel performance
+- Understanding guest personas
+- Prioritizing operational improvements
+- Supporting strategic business decisions
+- Reducing manual review analysis effort
+
+---
+
 # Future Enhancements
 
 - Multi-language review support
